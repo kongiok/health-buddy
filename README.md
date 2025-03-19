@@ -31,3 +31,26 @@
 | border        | 600/600 | 中性顏色 |
 | shadow        | 900/900 | 陰影顏色 |
 | tint          | 100/100 | 淡化顏色 |
+
+
+# Codebase
+
+## Components
+
+我們將 Components 分為下面幾個部分：
+```
+/components/
+/components/atoms/
+/components/molecules/
+/components/organisms/
+```
+
+- **Atoms**: 基本功能性的元件。
+  - Button、Link 等「最小單位的」的元件。
+  - Feedback、Haptic 等「單一功能性」的元件。
+- **Molecules**: 組合性的元件。
+  - Card、List 等「多個原子組合而成的」元件。
+- **Organisms**: 組合性的元件。
+  - Header、Footer 等「多個分子組合而成的」元件。
+
+> 按照 Atomic Design 的角度，我們應該要新增一個 「Template」目錄，但因為 Expo 是 Page Routing，已經提供 _Layout_ 及 _Page_ 功能了。
