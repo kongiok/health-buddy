@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "health-buddy",
-    "slug": "health-buddy",
+    "name": "boddy",
+    "slug": "boddy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "boddy",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {

@@ -1,4 +1,4 @@
-# Health Buddy
+# Boddy
 
 
 # Design Tokens
