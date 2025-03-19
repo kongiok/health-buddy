@@ -5,7 +5,7 @@ import { Platform } from "react-native";
 import * as Haptics from "expo-haptics";
 
 type FunctionProps = BottomTabBarButtonProps & {
-  HapticFeedbackStrength: HapticFeedbackStrength;
+  HapticFeedbackStrength?: HapticFeedbackStrength;
 };
 
 export function HapticPressable(props: FunctionProps) {
